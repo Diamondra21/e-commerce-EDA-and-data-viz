@@ -16,10 +16,20 @@ Some questions answered in this project :
 For example, based on the average order value and the average number of items per order, we can decide whether there is
 a need to employ an up-sell or cross-sell strategy.
 
-In the data visualization part, a dashboard has been made in Tableau. A user can interact with this tool and have access to charts
+In the data visualization part, a dashboard has been made in Tableau :
+
+
+![alt text](dashboard.png)
+
+
+A user can interact with this tool and have access to charts
 and KPIs about the sales performance of a chosen brand. This dashboard is available on the website of Tableau Public with this [link](https://public.tableau.com/views/e-commercesalesperformancedashboard/Tableaudebord1?:language=fr-FR&:display_count=n&:origin=viz_share_link).
 
 The data has been restructured into 3 smaller datasets, in order to remove the redundancies in the original one :
+
+
+![alt text](new_data_structure.png)
+
 
 In this relational model, we have the table "product"s which holds information from the products,
 "user_sessions" which contains information from the website sessions and "events" containing information from the website events.
